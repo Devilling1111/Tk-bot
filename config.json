@@ -13,34 +13,34 @@
     "json": false
   },
   "adminBot": [
-    6242891290
+    6954597258
   ],
   "botOperator": [
-    6242891290
+    
   ],
   "inbox": true,
   "white_list_group": {
     "enable": false,
     "groups": [
-      -1001234567890
+      -1002281817164
     ]
   },
   "white_list_ID": {
     "enable": false,
     "IDS": [
-      111222333
+      
     ]
   },
   "ignore_list_ID": {
     "enable": false,
     "IDS": [
-      444555666
+      
     ]
   },
   "premium_list_ID": {
     "enable": false,
     "IDs": [
-      777888999
+      
     ]
   },
   "unloadCommand": {},
