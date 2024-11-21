@@ -6,7 +6,7 @@
   "token": "7558862911:AAGzMQ8lAZYdKlmLAycObE6VOJCh3gJh30M",
 "mongodbURI":"mongodb+srv://userg4185:zWfR3c1ez5zpAUj0@cluster0.mfbe2.mongodb.net/botbee?retryWrites=true&w=majority&appName=Cluster0",
   "notes":"ADD_YOUR_MONGO_DB_URI for fast response",
-  "prefix": "/",
+  "prefix": "!",
   "api": "https://www.noobs-api.000.pe/dipto",
   "database": {
     "mongo": true,
