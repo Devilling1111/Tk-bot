@@ -4,7 +4,7 @@ const path = require('path');
 module.exports.config = {
     name: "help",
     version: "1.0",
-    author: "Dipto",
+    author: "MOHAMMAD-BADOL",
     role: 0,
     usePrefix: true,
     description: "List all commands",
@@ -75,7 +75,10 @@ module.exports.run = async ({ event, args, message, threadsData }) => {
 ├‣ ⚜️ Premium: ${command.premium ? 'Yes' : 'No'}
 ╰───────────────◊`;
 
-        return message.reply(commandInfo);
+        return message.reply({
+        body: commandInfo,
+        attachment: await global.utils.getStreamFromURL("https://drive.google.com/uc?id=1X-rlSqgtVi-cI1hyoOyA2W4_mUpec7zv")
+      });
     }
   // const categoriesPerPage = 10;
   const page = parseInt(args[0], 10) || 1;
@@ -104,5 +107,8 @@ module.exports.run = async ({ event, args, message, threadsData }) => {
 
     helpMessage += `\n╭─『 ${config.botName.toUpperCase()} BOT 』\n╰‣ Total commands: ${totalCommands}\n╰‣ Page ${page} of ${totalPages}\n╰‣ A personal Telegram bot ✨\n╰‣ ADMIN: ${config.adminName}\n`;
 
-    return message.reply(helpMessage);
+    return message.reply({
+        body: helpMessage,
+        attachment: await global.utils.getStreamFromURL("https://drive.google.com/uc?id=1X-rlSqgtVi-cI1hyoOyA2W4_mUpec7zv")
+      });
 };
