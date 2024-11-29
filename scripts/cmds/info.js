@@ -6,21 +6,21 @@ module.exports = {
         version: "1.0",
         countDown: 20,
         role: 0,
-        author: "dipto",
+        author: "MOHAMMAD-BADOL",
         description: "Owner information",
         category: "owner",
         guide: "{p}"
     },
   onStart: async ({ api, message ,event }) => {
         try {
-            const botName = "Your Baby";
-            const botPrefix = "!";
-            const authorName = "亗ㅤƊᎥᎮㅤƬᴏㅤ亗";
-            const ownAge = "18";
-            const teamName = "Noobs team";
-      const authorFB = "https://m.me/dipto008";
-          const authorInsta = "@fariasdipto";
-  const link = "https://i.imgur.com/Faxo9ce.jpeg";
+            const botName = "MIM-BOT-007";
+            const botPrefix = "/";
+            const authorName = "MOHAMMAD-BADOL";
+            const ownAge = "27";
+            const teamName = "MCS team";
+      const authorFB = "https://www.facebook.com/MBC.K1NG.007";
+          const authorInsta = "https://m.me/MBC.K1NG.007";
+  const link = "https://i.imgur.com/740LlU0.jpeg";
         const now = moment().tz('Asia/Dhaka');
       const date = now.format('MMMM Do YYYY');
           const time = now.format('h:mm:ss A');
@@ -46,7 +46,7 @@ const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} 
 ╰‣ Owner: ${authorName}
 ╰‣ Age: ${ownAge}
 ╰‣ Facebook: ${authorFB}
-╰‣ Instagram: ${authorInsta}
+╰‣ Messenger: ${authorInsta}
 ╰‣ Date: ${date}
 ╰‣ Time: ${time}
 ╰‣ Team: ${teamName}
